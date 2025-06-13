@@ -62,6 +62,7 @@ kakao-appium-automation/
 │   └── run_kakaobank_test.py
 ├── credentials/
 │   └── service_account.json (※ 업로드 금지)
+```
 
 ---
 
