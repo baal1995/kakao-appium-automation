@@ -5,6 +5,8 @@
 Android 앱을 대상으로 Appium을 활용해 실제 업무 시나리오 기반 자동화를 구현했습니다.  
 비정형 ADB 좌표 터치, WebView 대응, Google Sheets 결과 기록, 안정적인 예외 처리 등을 포함합니다.
 
+[📥 영상 다운로드 (Google Drive)](https://drive.google.com/your-shared-video-link)
+
 ---
 
 ## ✅ 주요 기능
