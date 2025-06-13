@@ -78,3 +78,4 @@ Google Cloud Platform에서 발급받은 `service_account.json` 키 파일이 �
 pip install -r requirements.txt
 python kakaowork/run_kakaowork_test.py
 python kakao_bank/run_kakaobank_test.py
+```
