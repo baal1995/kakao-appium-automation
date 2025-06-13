@@ -1,0 +1,9 @@
+# Python 캐시 파일
+__pycache__/
+*.pyc
+
+# 크리덴셜 파일 (Google API 키 등)
+credentials/*.json
+
+# 환경 설정
+.env
