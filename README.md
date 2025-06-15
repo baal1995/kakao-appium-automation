@@ -61,7 +61,7 @@ USB 디버깅이 활성화된 기기를 PC에 연결 후, 위 명령어로 연�
 ---
 adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'
 ---
-
+현재 실행 중인 앱의 패키지명과 액티비티명을 확인할 수 있습니다.
 
 ## ⚙️ 기술 스택
 
