@@ -51,10 +51,12 @@ adb devices
 ---
 USB 디버깅이 활성화된 기기를 PC에 연결 후, 위 명령어로 연결된 기기를 확인
 
+
 📦 앱 패키지명(package name) 및 액티비티명(activity name) 얻는 법
 ---
 adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'
 ---
+
 
 ## ⚙️ 기술 스택
 
