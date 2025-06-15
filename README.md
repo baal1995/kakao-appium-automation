@@ -70,6 +70,8 @@ adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'
 - Selenium (WebDriverWait + expected_conditions)
 - gspread / oauth2client (Google Sheets API)
 - Android 디바이스 + ADB
+- 안드로이드 sdk
+- vscode
 
 ---
 
