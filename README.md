@@ -44,18 +44,16 @@ Android 앱을 대상으로 Appium을 활용해 실제 업무 시나리오 기�
 - 이후 카카오뱅크 자체 보안 이슈로 추가 테스트 불가
 ---
 
----📱 Android 설정 가이드
+📱 Android 설정 가이드
 🔌 ADB 디바이스 목록 확인
-bash
-복사
-편집
+---bash
+
 adb devices
+---
 USB 디버깅이 활성화된 기기를 PC에 연결 후, 위 명령어로 연결된 기기를 확인
 
 📦 앱 패키지명(package name) 및 액티비티명(activity name) 얻는 법
-bash
-복사
-편집
+---bash
 adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'
 ---
 
