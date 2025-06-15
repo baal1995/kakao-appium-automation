@@ -46,14 +46,13 @@ Android 앱을 대상으로 Appium을 활용해 실제 업무 시나리오 기�
 
 📱 Android 설정 가이드
 🔌 ADB 디바이스 목록 확인
----bash
-
+---
 adb devices
 ---
 USB 디버깅이 활성화된 기기를 PC에 연결 후, 위 명령어로 연결된 기기를 확인
 
 📦 앱 패키지명(package name) 및 액티비티명(activity name) 얻는 법
----bash
+---
 adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'
 ---
 
